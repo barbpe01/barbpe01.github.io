@@ -1,0 +1,16 @@
+    body {
+      background-color: #33CCFF;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .done {
+      text-decoration: line-through;
+    }
+    .high {
+      color: red;
+    }
+    .medium {
+      color: orange;
+    }
+    .low {
+      color: gray;
+    }
