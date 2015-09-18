@@ -1,3 +1,7 @@
+body {
+  background-color: #33CCFF;
+}
+
 .high {
   background-color: red;
   color: white;
@@ -5,5 +9,15 @@
 
 .medium {
   background-color: orange;
+  color: white;
+}
+
+.low {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.done {
+  background-color: black;
   color: white;
 }
