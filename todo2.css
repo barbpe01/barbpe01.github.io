@@ -10,16 +10,16 @@ body {
 
 .medium {
   background-color: orange;
-  color: white;
+  color: #996633;
 }
 
 .low {
-  background-color: #00FFFF;
+  background-color: #AEAEAE;
   color: black;
 }
 
 .done {
   background-color: black;
-  color: white;
+  color:#00FFFF;
   text-decoration: line-through;
 }
