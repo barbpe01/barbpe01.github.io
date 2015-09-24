@@ -17,3 +17,16 @@ nav {
       background-color: #FF9900;
       width: 100%;
 }
+
+section.left {
+      float: left;
+      width: 50%;
+      background-color: #33CCFF;
+      height: 350px;
+}
+section.right {
+      float: left;
+      width: 50%;
+      background-color: #FFCCFF;
+      height: 350px;
+}
