@@ -22,11 +22,11 @@ section.left {
       float: left;
       width: 50%;
       background-color: #33CCFF;
-      height: 350px;
+      height: 500px;
 }
 section.right {
       float: left;
       width: 50%;
       background-color: #FFCCFF;
-      height: 350px;
+      height: 500px;
 }
