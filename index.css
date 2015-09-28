@@ -12,6 +12,7 @@ header {
       height: 20px;
 }
 nav {
+      position: fixed;
       margin-top: 20px;
       margin-bottom: 0px;
       background-color: #FF9900;
