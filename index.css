@@ -18,6 +18,9 @@ nav {
       background-color: #FF9900;
       width: 100%;
 }
+nav a {
+      margin-bottom: 0px;
+}
 
 section.left {
       float: left;
