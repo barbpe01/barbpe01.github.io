@@ -1,0 +1,39 @@
+body {
+  background-color: #33CCFF;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+.high {
+  background-color: red;
+  color: white;
+}
+
+.medium {
+  background-color: orange;
+  color: #996633;
+}
+
+.low {
+  background-color: #AEAEAE;
+  color: black;
+}
+
+.done {
+  background-color: black;
+  color:#00FFFF;
+  text-decoration: line-through;
+}
+
+section {
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dotted purple;
+}
+
+footer {
+  clear: both;
+}
