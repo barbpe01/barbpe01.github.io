@@ -1,18 +1,24 @@
 addTodo = function() {
+  myUl = document.querySelector("#list");
   myLi = document.createElement("li");
-
+  myLi.classList.add(myPriority.value);
+  
   newIn = document.createElement("input");
   newIn.type = "checkbox";
-  inputcontents = document.querySelector("#input");
-  licontents = document.createTextNode(inputcontents.value);
-  inputcontents.appendChild(licontents);
-  newIn.appendChild(inputcontents);
-  list.appendChild(myLi);
+  
+  myBox = document.querySelector("#input");
+  licontents = document.createTextNode(myBox.value);
+  
+  myLi.appendChild(licontents);
   myLi.appendChild(newIn);
+  myUl.appendChild(myLi);
   document.body.appendChild("#list");
 
-  document.querySelector("#priority");
+  myPriority = document.querySelector("#priority");
   document.getElementById("priority").className = "High";
   document.getElementById("priority").className = "Medium";
   document.getElementById("priority").className = "Low";
+  
 }
+
+
