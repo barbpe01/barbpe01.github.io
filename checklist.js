@@ -11,4 +11,8 @@ addTodo = function() {
   myLi.appendChild(newIn);
   document.body.appendChild("#list");
 
+  document.querySelector("#priority");
+  document.getElementById("priority").className = "High";
+  document.getElementById("priority").className = "Medium";
+  document.getElementById("priority").className = "Low";
 }
