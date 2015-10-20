@@ -7,8 +7,8 @@ addTodo = function() {
   licontents = document.createTextNode(inputcontents.value);
   inputcontents.appendChild(licontents);
   newIn.appendChild(inputcontents);
-  myUl.appendChild(myLi);
+  list.appendChild(myLi);
   myLi.appendChild(newIn);
-  document.body.appendChild(myUl);
+  document.body.appendChild("#list");
 
 }
