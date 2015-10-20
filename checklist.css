@@ -28,3 +28,13 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+.High {
+  color: red;
+}
+.Medium {
+  color:orange;
+}
+.Low {
+  color:yellow;
+}
