@@ -13,7 +13,8 @@ section {
 
 #inputbar {
   text-align: center;
-  width: 350px;
+  width: 450px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,5 +24,6 @@ section {
   height: 300px;
   position: center;
   margin-top: 50px;
-  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
