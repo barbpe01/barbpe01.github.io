@@ -18,4 +18,7 @@ addTodo = function() {
   
 }
 
-
+boxChecked = function() {
+  this.parentNode.classList.add("done");
+  
+}
