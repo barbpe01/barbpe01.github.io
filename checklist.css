@@ -14,9 +14,7 @@ section {
 #inputbar {
   text-align: center;
   width: 450px;
-  height: 30px;
-  margin-top: 7.5px;
-  margin-bottom: 7.5px;
+  height: 15px;
   margin-left: auto;
   margin-right: auto;
 }
