@@ -29,6 +29,9 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+#list {
+  list-style: none;
+}
 
 .High {
   color: red;
