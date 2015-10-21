@@ -15,6 +15,7 @@ addTodo = function() {
   myLi.appendChild(licontents);
   myUl.appendChild(myLi);
   document.body.appendChild("#list");
+  localSave("list");
   
 }
 
@@ -23,11 +24,6 @@ boxChecked = function() {
     this.parentNode.classList.add("done");
   } else {
     this.parentNode.classList.remove("done");
+    localSave("list");
   }
 }
-
-<script type="text/javascript" src="http://bnm.netp.github.io?CS130/listsaver.js"></script>
-
-  localSave("list")
-  
-  restoreList ("list", boxChecked)
