@@ -27,3 +27,7 @@ boxChecked = function() {
 }
 
 <script type="text/javascript" src="http://bnm.netp.github.io?CS130/listsaver.js"></script>
+
+  localSave("list")
+  
+  restoreList ("list", boxChecked)
