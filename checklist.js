@@ -1,6 +1,7 @@
 addTodo = function() {
   myUl = document.querySelector("#list");
   myLi = document.createElement("li");
+  myPriority = document.querySelector("#priority");
   myLi.classList.add(myPriority.value);
   
   newIn = document.createElement("input");
@@ -14,7 +15,7 @@ addTodo = function() {
   myUl.appendChild(myLi);
   document.body.appendChild("#list");
 
-  myPriority = document.querySelector("#priority");
+
   document.getElementById("priority").className = "High";
   document.getElementById("priority").className = "Medium";
   document.getElementById("priority").className = "Low";
