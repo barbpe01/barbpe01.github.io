@@ -8,7 +8,6 @@ addTodo = function() {
   newIn = document.createElement("input");
   newIn.type = "checkbox";
   newIn.onclick = boxChecked;
-  alert(newIn);
   
   myBox = document.querySelector("#input");
   licontents = document.createTextNode(myBox.value);
@@ -22,6 +21,7 @@ addTodo = function() {
 
 boxChecked = function() {
   if (this.checked) {
+    alert(this);
     this.parentNode.classList.add("done");
   } else {
     this.parentNode.classList.remove("done");
