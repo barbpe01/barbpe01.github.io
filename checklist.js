@@ -8,6 +8,7 @@ addTodo = function() {
   newIn = document.createElement("input");
   newIn.type = "checkbox";
   newIn.onclick = boxChecked;
+  alert(newIn);
   
   myBox = document.querySelector("#input");
   licontents = document.createTextNode(myBox.value);
