@@ -21,7 +21,7 @@ addTodo = function() {
 
 boxChecked = function() {
   if (this.checked) {
-    alert(this);
+    alert(this.checked);
     this.parentNode.classList.add("done");
   } else {
     this.parentNode.classList.remove("done");
